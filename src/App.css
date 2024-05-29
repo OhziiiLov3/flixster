@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-header {
@@ -11,6 +12,10 @@
   color: white;
   padding: 20px;
 }
+
+
+
+
 
 @media (max-width: 600px) {
   .movie-card {
