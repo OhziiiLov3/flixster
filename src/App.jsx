@@ -2,6 +2,7 @@
 import './App.css'
 import Footer from './components/Footer';
 import Header from './components/Header'
+import MovieList from './components/MovieList';
 
 
 const App = () => {
@@ -13,6 +14,8 @@ const App = () => {
        <div>Search Bar</div>
        <div>Dropdown Filter</div>
      </div>
+     
+     <MovieList/>
      <Footer/>
     </div>
   );

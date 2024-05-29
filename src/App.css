@@ -6,11 +6,12 @@ box-sizing: border-box;
   
 .App {
   text-align: center;
-   background-color: #282c34;
+ 
 }
 
+
 .App-header {
-    background-color: #5e548e;
+  background-color: #5e548e;
   display: flex;
   flex-direction: row;
   align-items: center;
