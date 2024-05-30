@@ -21,9 +21,6 @@
 }
 
 .search-button {
-  display: flex;
-  align-items: center;
-  border: 1px solid #ced4da;
   border-radius: 5px;
   cursor: pointer;
   padding: 10px;
