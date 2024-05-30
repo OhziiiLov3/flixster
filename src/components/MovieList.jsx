@@ -11,7 +11,7 @@ const MovieList = () => {
 
     const fetchMovies = async () => {
     const apiKey = import.meta.env.VITE_API_KEY;
-    let url = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}`;
+    let url = `https://api.themoviedb.org/3/movie/now_playing?api_key=${apiKey}`;
       try {
         const response = await fetch(url);
         const data = await response.json();
@@ -29,7 +29,12 @@ const MovieList = () => {
     <>
       <div className="movie-list">
         {movies.map((movie, idx) => (
-          <div key={idx}>{movie.title}</div>
+          <div key={idx} className='movie-card'>
+            <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}alt=""/>
+            <h2>{movie.title}</h2>
+            <p> Votes: {movie.vote_count}</p>
+            <p>Rating: {movie.vote_average}</p>
+          </div>
         ))}
       </div>
     </>
