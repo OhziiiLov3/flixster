@@ -4,13 +4,20 @@
   position: relative;
 }
 
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+
 .search-input {
   padding: 10px;
   border: 1px solid #ced4da;
   border-radius: 5px;
   outline: none;
   font-family: Arial, Helvetica, sans-serif;
-  flex-grow: 1; /* Make input take the remaining space */
+  flex-grow: 1; 
+   margin-left: 5px;
 }
 
 .search-button {
