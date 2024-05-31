@@ -106,7 +106,6 @@ const App = () => {
         <Dropdown
           label="Sort by"
           options={[
-            { label: "Select Sort Option", value: "" },
             { label: "Alphabetical", value: "alphabetical" },
             { label: "Release Date", value: "release_date" },
             { label: "Rating", value: "rating" },
