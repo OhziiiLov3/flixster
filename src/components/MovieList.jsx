@@ -1,7 +1,10 @@
+
 import "../styles/MovieList.css";
 import MovieCard from "./MovieCard";
 
+
 const MovieList = ({ movies, loadMoreMovies }) => {
+ 
   return (
     <>
       {movies.length > 0 && (
@@ -11,7 +14,7 @@ const MovieList = ({ movies, loadMoreMovies }) => {
       )}
       <div className="movie-list">
         {movies.map((movie, index) => (
-          <MovieCard key={`${movie.id}-${index}`} movie={movie} />
+          <MovieCard key={`${movie.id}-${index}`} movie={movie}  />
         ))}
       </div>
     </>

@@ -7,7 +7,7 @@ const SearchBar = ({ onSearch }) => {
 
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
-    console.log("Searching....", event.target.value);
+    // console.log("Searching....", event.target.value);
   };
 
   const handleSearchSubmit = (event) => {
