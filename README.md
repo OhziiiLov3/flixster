@@ -25,8 +25,8 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
   - [x] Website implements responsive web design.
 - [x] **Movie Details**
   - [x] Users can view more details about a movie in a popup, such as runtime in minutes, backdrop poster, release date, genres, and/or an overview.
-- [ ] **Sorting Options**
-  - [ ] Users can click on a filter by drop down to sort product by type (alphabetic, release date, rating).
+- [x] **Sorting Options**
+  - [x] Users can click on a filter by drop down to sort product by type (alphabetic, release date, rating).
 - [x] **Layout**
   - [x] Website displays header, banner, search, movie grid, about, contact, and footer section.
 

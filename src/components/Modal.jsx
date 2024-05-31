@@ -1,10 +1,6 @@
 import "../styles/Modal.css";
 
 const Modal = ({ movie, onClose, isOpen }) => {
-  //   console.log(movie);
-  // Get runtime in minutes
-
-
   return (
     <div className={`modal ${isOpen ? "open" : ""}`}>
       <div className="modal-content">
