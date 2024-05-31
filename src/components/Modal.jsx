@@ -1,8 +1,9 @@
 import "../styles/Modal.css";
 
 const Modal = ({ movie, onClose, isOpen }) => {
-//   console.log(movie);
-//   const genres = Array.isArray(movie.genres) ? movie.genres.join(", ") : "N/A";
+  //   console.log(movie);
+  // Get runtime in minutes
+
 
   return (
     <div className={`modal ${isOpen ? "open" : ""}`}>
@@ -19,6 +20,7 @@ const Modal = ({ movie, onClose, isOpen }) => {
           {" "}
           <strong>Release Date:</strong> {movie.release_date}
         </p>
+       
         <p>
           <strong>Overview: </strong>
           {movie.overview}
